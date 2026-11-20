@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="股票概率图">
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="#F5F6F8" stroke="#D3D1C7" stroke-width="1.5"/>
+  <rect x="12" y="14" width="30" height="8" rx="2" fill="#E24B4A"/>
+  <rect x="12" y="28" width="22" height="8" rx="2" fill="#F09595"/>
+  <rect x="12" y="42" width="16" height="8" rx="2" fill="#639922"/>
+  <text x="36" y="21" font-family="sans-serif" font-size="9" fill="#A32D2D">40%</text>
+  <text x="28" y="35" font-family="sans-serif" font-size="9" fill="#A32D2D">30%</text>
+  <text x="22" y="49" font-family="sans-serif" font-size="9" fill="#3B6D11">20%</text>
+</svg>
