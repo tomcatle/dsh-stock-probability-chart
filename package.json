@@ -1,0 +1,52 @@
+{
+  "name": "dsh-stock-probability-chart",
+  "version": "0.1.0",
+  "description": "股票概率图：为 DeepSeek Harness 注册一个短周期股价情景概率估计技能，输出红涨绿跌的四情景概率分布图（主观估计，非统计回测）",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src",
+    "cordis.patch.yml",
+    "locale",
+    "icon.svg",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomcatle/dsh-stock-probability-chart.git"
+  },
+  "homepage": "https://github.com/tomcatle/dsh-stock-probability-chart#readme",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "skill",
+    "stock",
+    "probability",
+    "股票",
+    "概率图"
+  ],
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0",
+    "dsh": ">=0.2.0-rc.2 <0.3.0-0"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1"
+  },
+  "devDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
