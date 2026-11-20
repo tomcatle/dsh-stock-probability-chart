@@ -1,0 +1,21 @@
+<svg width="100%" viewBox="0 0 680 310" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>{{STOCK_NAME}}{{PERIOD}}情景概率分布</title>
+<desc>{{STOCK_NAME}}四收盘价区间的主观概率估计，非统计回测结果</desc>
+<text x="40" y="24" style="font-size:14px;font-weight:500;fill:#2C2C2A">{{STOCK_NAME}}（{{STOCK_CODE}}）{{PERIOD}}情景概率分布</text>
+<text x="40" y="44" style="font-size:12px;fill:#5F5E5A">基准：{{BASE_PRICE}} 元（{{BASE_TYPE}}）｜主观估计，非统计回测</text>
+<text x="40" y="93" style="font-size:12px;fill:#2C2C2A">&gt; {{R1}} {{R1_LABEL}}</text>
+<rect x="200" y="74" width="{{W1}}" height="30" rx="4" fill="#E24B4A"/>
+<text x="{{T1X}}" y="93" style="font-size:13px;font-weight:500;fill:#A32D2D">{{P1}}%</text>
+<text x="40" y="137" style="font-size:12px;fill:#2C2C2A">{{R2_LOW}}–{{R2}} {{R2_LABEL}}</text>
+<rect x="200" y="118" width="{{W2}}" height="30" rx="4" fill="#F09595"/>
+<text x="{{T2X}}" y="137" style="font-size:13px;font-weight:500;fill:#A32D2D">{{P2}}%</text>
+<text x="40" y="181" style="font-size:12px;fill:#2C2C2A">{{R3_LOW}}–{{R3}} {{R3_LABEL}}</text>
+<rect x="200" y="162" width="{{W3}}" height="30" rx="4" fill="#C0DD97"/>
+<text x="{{T3X}}" y="181" style="font-size:13px;font-weight:500;fill:#3B6D11">{{P3}}%</text>
+<text x="40" y="225" style="font-size:12px;fill:#2C2C2A">&lt; {{R4}} {{R4_LABEL}}</text>
+<rect x="200" y="206" width="{{W4}}" height="30" rx="4" fill="#639922"/>
+<text x="{{T4X}}" y="225" style="font-size:13px;font-weight:500;fill:#3B6D11">{{P4}}%</text>
+<path d="M40 250L640 250" fill="none" stroke="#D3D1C7" stroke-width="0.5"/>
+<text x="40" y="274" style="font-size:13px;font-weight:500;fill:#2C2C2A">收阳合计 {{P_UP}}%　｜　收阴合计 {{P_DOWN}}%　｜　{{SUMMARY_STAT}}</text>
+<text x="40" y="294" style="font-size:12px;fill:#5F5E5A">{{BIAS_NOTE}}</text>
+</svg>
